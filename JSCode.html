@@ -1,0 +1,94 @@
+<html>
+<link rel="stylesheet" href="JSCode.css" title="style1" media="screen" />
+
+<body>
+    <div id='Nav'>
+        <div id='SC' onclick='clickSC()'>
+            <li>
+                <gg style=t ext-decoration:none href='#'>Program</gg>
+            </li>
+        </div>
+        <div id='Prg' onclick='clickPrg()'>
+            <li>
+                <gg style=t ext-decoration:none href='#'>Code</gg>
+            </li>
+        </div>
+        <div id='Donate' onclick='clickDonate()'>
+            <li>
+                <gg style=t ext-decoration:none href='#'>Donate</gg>
+            </li>
+        </div>
+        <div id='About' onclick='clickAbout()'>
+            <li>
+                <gg style=t ext-decoration:none href='#'>About</gg>
+            </li>
+        </div>
+        <div id='HoverEffect'></div>
+    </div>
+    <div class='Header'>
+    </div>
+    <div class='Name'>
+    </div>
+    <div class='Details'>
+    </div>
+    <img id='Twitter' onclick='sendTwitter()' onmouseover='onTwitterOne()' onmouseout='onTwitterTwo()' src='Twitter1.png' width='50' height='50'></img>
+    <img id='GitHub' onclick='sendGithub()' onmouseover='onGithubOne()' onmouseout='onGithubTwo()' src='GitHub1..png' width='50' height='50'></img>
+
+    <script>
+       var p1 = 'Would You Like To Open Or Locate? o = Open While L = Locate';
+        var Github = 'http://www.github.com/AzuraDev';
+        var Twitter = 'http://www.twitter.com/azuradev';
+        function clickSC() {
+            window.scrollTo(0, 800);
+        }
+
+        function clickPrg() {
+            window.scrollTo(0, 1600);
+        }
+
+        function clickDonate() {
+            window.scrollTo(0, 2400);
+        }
+
+        function clickAbout() {
+            window.scrollTo(0, 3200);
+        }
+
+        function onGithubOne() {
+            var img = document.getElementById('GitHub');
+            if (img.src.match('GitHub1..png')) {
+                img.src = 'GitHub.png';
+            }
+        }
+
+        function onGithubTwo() {
+            var img = document.getElementById('GitHub');
+            img.src = 'GitHub1..png';
+        }
+        function sendGithub(){
+            cLink1 = prompt(p1);
+            window.scrollTo(0,0);
+            window.open(Github);
+        }
+        
+        function onTwitterOne() {
+            var img = document.getElementById('Twitter');
+            if (img.src.match('Twitter1.png')) {
+                img.src = 'Twitter.png';
+            }
+        }
+        function onTwitterTwo(){
+         var img = document.getElementById('Twitter');
+            img.src = 'Twitter1.png';
+        }
+        function sendTwitter(){
+            cLink2 = prompt(p1);
+         window.scrollTo(0,0);
+            window.open(Twitter); 
+        }
+    </script>
+    <p>p</p>
+
+</body>
+
+</html>
