@@ -40,6 +40,9 @@
     <div onclick="keyChrome()" onmouseout="keyChromeList()" onmouseover="keyChromeFunction()" id='KeyChrome'>
         <p>KeyChrome</p>
     </div>
+    <div onmouseout="openFunctionList()" onmouseover="openFunction()" id="Open">
+
+    </div>
     <img id='Twitter' onclick='sendTwitter()' onmouseover='onTwitterOne()' onmouseout='onTwitterTwo()' src='Twitter1.png' width='50' height='50'></img>
     <img id='GitHub' onclick='sendGithub()' onmouseover='onGithubOne()' onmouseout='onGithubTwo()' src='GitHub1..png' width='50' height='50'></img>
     <img id='logoOne' src='Logo.png' width='400' height='400'></img>
@@ -134,6 +137,14 @@
         function keyChrome() {
             window.scrollTo(0, 1600);
         }
+
+        function openFunction() {
+            document.getElementById('Open').style.padding = '55px 55px 155px 55px';
+        }
+
+        function openFunctionList() {
+            document.getElementById('Open').style.padding = '55px 55px 6px 55px';
+        }
         var pathList = 0;
         var picList = new Array();
         picList[0] = 'mainImg1.PNG';
@@ -150,6 +161,17 @@
             setTimeout("pathAdd()", 2000);
         }
         window.onload = pathAdd;
+
+        var bodyType = document.body.style.background;
+        var webList = new Array();
+        webList[0] = bodyType = "#e6ecfe";
+        webList[1] = bodyType = "#f2f2f2";
+        webList[2] = bodyType = "#ffffff";
+        var webListSelector = Math.floor(Math.random() * webList.length);
+        document.body.style.background = webList[webListSelector];
+        if(Date >= 0){
+            document.body.style.background = '#000';
+        }
     </script>
     <p id='Great'>p</p>
 
