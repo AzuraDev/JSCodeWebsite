@@ -9,35 +9,27 @@ body {
 }
 #SC {
     position: fixed;
-    top: 35px;
+    top: 30px;
     right: 400px;
       z-index: 3;
 }
 #Prg {
 position: fixed;
-    top: 35px;
+    top: 30px;
     right: 300px;
       z-index: 3;
 } 
 #Donate {
 position: fixed;
-    top: 35px;
+    top: 30px;
     right: 200px;
       z-index: 3;
 } 
 #About {
 position: fixed;
-    top: 35px;
+    top: 30px;
     right: 100px;
           z-index: 3;
-}
-#HoverEffect{
-    position: fixed;
-    top: 65px;
-    right: 80px;
- background-color: #ffffff;
-    padding: 1px 1px 1px 400px;
-    z-index: 3;
 }
 .Header {
     position: fixed;
@@ -76,9 +68,55 @@ position: fixed;
     left: 100px;
     z-index: 4;
 }
-p{
+#logoOne{
  position: absolute;
-    top:4000px;   
+    top: 230px;
+    left: 40px;
+    right: 430px;
+    z-index: 1;
+}
+#logoTwo{
+ position: absolute;
+    top: 230px;
+    right: 40px;
+    z-index: 1;
+}
+#Main{
+ position: absolute;
+    top: 435px;
+    left: 460px;
+    color: #7a8c91;
+}
+#JSPrank{
+ position: absolute;
+    top: 865px;
+    left: 460px;
+    font-family: fantasy;
+    color: #ffffff;
+    background-color: #222222;
+    padding: 5px 115px 5px 115px;
+}
+#WebRand{
+    position: absolute;
+    top: 865px;
+    left: 740px;
+    font-family: fantasy;
+    color: #ffffff;
+    background-color: #2e3435;
+    padding: 5px 115px 5px 115px;
+}
+#KeyChrome{
+    position: absolute;
+    top: 865px;
+    left: 1030px;
+    font-family: fantasy;
+    color: #ffffff;
+    background-color: #4d575a ;
+        padding: 5px 115px 5px 115px;
+}
+#great{
+ position: absolute;
+    top: 10000;
 }
 li {
     display: inline;
