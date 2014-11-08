@@ -94,26 +94,36 @@ position: fixed;
     font-family: fantasy;
     color: #ffffff;
     background-color: #222222;
-    padding: 5px 115px 5px 115px;
+    padding: 5px 115px 5px 15px;
 }
 #WebRand{
     position: absolute;
     top: 865px;
-    left: 740px;
+    left: 640px;
     font-family: fantasy;
     color: #ffffff;
     background-color: #2e3435;
-    padding: 5px 115px 5px 115px;
+    padding: 5px 115px 5px 15px;
 }
 #KeyChrome{
+    position: absolute;
+    top: 865px;
+    left: 830px;
+    font-family: fantasy;
+    color: #ffffff;
+    background-color: #4d575a ;
+        padding: 5px 115px 5px 15px;
+}
+#BingCheats{
     position: absolute;
     top: 865px;
     left: 1030px;
     font-family: fantasy;
     color: #ffffff;
-    background-color: #4d575a ;
-        padding: 5px 115px 5px 115px;
+    background-color: #575757 ;
+        padding: 5px 115px 5px 15px;
 }
+
 #great{
  position: absolute;
     top: 10000;
